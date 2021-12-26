@@ -1,0 +1,189 @@
+/* NAVBAR */
+
+.navbar {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.nav-item img {
+  height: 40px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* AKHIR NAVBAR */
+
+/* BAGIAN JUMBOTRON */
+
+#jumbotron {
+  background-image: url(img/JUMBOTRON.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#jumbotron img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+#jumbotron h1 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Croissant One', cursive;
+}
+
+#jumbotron p {
+  font-size: 15px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: 'Croissant One', cursive;
+}
+
+/* AKHIR BAGIAN JUMBOTRON */
+
+/* BAGIAN PEMBUKAAN */
+
+#pembukaan {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nol {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Croissant One', cursive;
+}
+
+.satu {
+  font-size: 18px;
+  text-align: justify;
+  text-transform: capitalize;
+  font-family: 'Syne', sans-serif;
+}
+
+.dua {
+  font-size: 18px;
+  text-align: justify;
+  text-transform: capitalize;
+  font-family: 'Syne', sans-serif;
+}
+
+/* AKHIR BAGIAN PEMBUKAAN */
+
+/* BAGIAN PENDIDIKAN */
+
+#pendidikan {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#pendidikan h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Croissant One', cursive;
+}
+
+#pendidikan img {
+  height: 250px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.img-hover-zoom--blur img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: blur(3px);
+  transform: scale(1);
+}
+.img-hover-zoom--blur:hover img {
+  filter: blur(0);
+  transform: scale(1.2);
+}
+
+/* AKHIR BAGIAN PENDIDIKAN */
+
+/* BAGIAN KEMAMPUAN */
+
+#kemampuan {
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#kemampuan h1 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Croissant One', cursive;
+}
+
+#kemampuan img {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  height: 250px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+#kemampuan p {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 18px;
+  text-align: justify;
+  text-transform: capitalize;
+  font-family: 'Syne', sans-serif;
+}
+
+.img-hover-zoom--brightness img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+.img-hover-zoom--brightness:hover img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
+
+/* AKHIR BAGIAN KEMAMPUAN */
+
+/* BAGIAN PROJEK */
+
+#projek {
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#projek h1 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: black;
+  font-family: 'Croissant One', cursive;
+}
+
+#projek img {
+  height: 300px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.img-hover-zoom--colorize img {
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  filter: grayscale(100%);
+}
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* AKHIR BAGIAN PROJEK */
