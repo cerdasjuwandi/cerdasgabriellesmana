@@ -449,4 +449,55 @@
     filter: blur(0);
     transform: scale(1.5);
   }
+
+  /* AKHIR BAGIAN KERJA SAMA */
+
+  /* BAGIAN SERTIFIKAT */
+
+  #sertifikat {
+    background-image: url(img/bg3.PNG);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #sertifikat h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: black;
+    /* text-shadow: 5px 5px 5px rgba(0, 0, 0, 1); */
+    font-family: 'Croissant One', cursive;
+  }
+
+  #sertifikat img {
+    height: 400px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+  }
+
+  /* AKHIR BAGIAN SERTIFIKAT */
+
+  /* BAGIAN KONTAK */
+
+  #kontak {
+    background-color: rgb(143, 141, 141);
+  }
+
+  #kontak h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    font-family: 'Croissant One', cursive;
+  }
+
+  #kontak p {
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+    text-align: justify;
+    font-family: 'Syne', sans-serif;
+  }
 }
