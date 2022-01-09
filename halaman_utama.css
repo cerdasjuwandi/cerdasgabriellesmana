@@ -509,7 +509,7 @@
   /* BAGIAN SERTIFIKAT */
 
   #sertifikat {
-    background-image: url(img/bg3.PNG);
+    background-image: url(img/bg\ sertifikat.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
