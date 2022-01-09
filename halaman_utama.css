@@ -17,29 +17,17 @@
 /* BAGIAN JUMBOTRON */
 
 #jumbotron {
-  background-image: url(img/JUMBOTRON.jpg);
+  background-image: url(img/welcome.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-#jumbotron img {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  height: 200px;
-  border-radius: 50%;
-}
-
 #jumbotron h1 {
-  font-size: 40px;
-  color: white;
-  font-family: 'Croissant One', cursive;
-}
-
-#jumbotron p {
-  font-size: 15px;
-  margin-bottom: 50px;
-  color: white;
+  font-size: 100px;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  color: black;
   font-family: 'Croissant One', cursive;
 }
 
@@ -300,28 +288,16 @@
   /* BAGIAN JUMBOTRON */
 
   #jumbotron {
-    background-image: url(img/JUMBOTRON.jpg);
+    background-image: url(img/welcome.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
 
-  #jumbotron img {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    height: 350px;
-    border-radius: 50%;
-  }
-
   #jumbotron h1 {
-    font-size: 50px;
-    color: white;
-    font-family: 'Croissant One', cursive;
-  }
-
-  #jumbotron p {
-    font-size: 15px;
-    margin-bottom: 50px;
-    color: white;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    font-size: 100px;
+    color: black;
     font-family: 'Croissant One', cursive;
   }
 

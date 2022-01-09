@@ -1,0 +1,20 @@
+#jumbotron {
+  background-image: url(img/JUMBOTRON.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#jumbotron h1 {
+  text-align: center;
+  margin-bottom: 200px;
+  color: white;
+  font-family: 'Croissant One', cursive;
+}
+
+#jumbotron img {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  height: 300px;
+  border-radius: 50%;
+}
